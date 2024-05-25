@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="绑定"
+        android:id="@+id/btn_bind"></Button>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="调用"
+        android:id="@+id/btn_use"></Button>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="解绑"
+        android:id="@+id/btn_unbind"></Button>
+</LinearLayout>
